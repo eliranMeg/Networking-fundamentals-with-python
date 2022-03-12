@@ -29,4 +29,3 @@ while True:
 	print("[*] Acceptes connection from: %s:%d" % (addr[0], addr[1]))
 	client_handler = threading.Thread(target=handle_client, args=(client,))
 	client_handler.start()
-	
